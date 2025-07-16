@@ -1,0 +1,107 @@
+============================
+Blockchain Voting System - Project Overview
+============================
+
+This project is a full-stack blockchain-based voting system designed for secure, transparent, and verifiable college elections. It consists of three main parts:
+- Smart Contracts (Solidity, Hardhat)
+- Backend API (Node.js, Express, MongoDB, ethers.js)
+- Frontend Web App (Next.js/React, Web3, REST API)
+
+--------------------------------------------
+1. Features Overview
+--------------------------------------------
+
+A. Blockchain/Smart Contract Features (Solidity)
+------------------------------------------------
+- Secure, immutable, and transparent voting records on Ethereum blockchain
+- 5 Predefined Positions: Vice-president, GS(GYMKHANA), GS(CULTURAL), GS(SPORTS), GS(TECHNICAL)
+- Position-based voting (one vote per position per voter)
+- Real-time results with tie handling
+- Admin controls: create/complete elections, update fees, emergency stop, withdraw fees
+- Candidate/voter registration with fees
+- Event system for frontend updates
+- Gas-optimized and secure (Ownable, ReentrancyGuard)
+
+B. Backend Features (Node.js/Express)
+-------------------------------------
+- REST API for all frontend operations
+- MongoDB for user, candidate, and event data
+- Email OTP authentication for voter registration/login
+- Blockchain integration (ethers.js) for all voting actions
+- File upload for candidate profiles
+- Robust environment/config validation
+- Logging and error handling
+- **Auto-completion and archiving:** Scheduler script automatically completes and archives elections after voting ends
+- **BigInt serialization fix:** All BigInt values from blockchain are converted to strings before saving to MongoDB
+- **Vote status endpoint:** `/api/blockchain/vote-status?electionId=...&voterAddress=...&position=...` returns `{ hasVoted: true/false }`
+
+C. Frontend Features (Next.js/React)
+------------------------------------
+- Web3 wallet integration (MetaMask)
+- Real-time election results and analytics
+- Responsive, modern UI for voters and admins
+- Admin panel for full election management
+- Candidate/voter registration flows
+- Secure voting via blockchain or backend API
+- Input validation and error feedback
+- **API base URL configuration:** Uses `NEXT_PUBLIC_API_URL` for all backend calls
+
+--------------------------------------------
+2. Quickstart for the Whole Stack
+--------------------------------------------
+
+1. **Deploy Smart Contracts**
+   - See `contracts/README.md` for setup, deployment, and test instructions
+   - Copy deployed contract address to backend `.env` as `CONTRACT_ADDRESS`
+
+2. **Start Backend**
+   - See `backend/README.md` for setup, environment, and API docs
+   - Run `npm install`, set up `.env`, and start with `npm start`
+   - (Recommended) Run `node auto-complete-and-archive.js` for auto-archiving
+
+3. **Start Frontend**
+   - See `final/admin/README.md` for setup and environment
+   - Run `npm install`, set up `.env.local` with `NEXT_PUBLIC_API_URL`, and start with `npm run dev`
+
+--------------------------------------------
+3. Main Directories & Structure
+--------------------------------------------
+
+A. contracts/
+- contracts/VotingSystem.sol: Main smart contract
+- test/: Hardhat/Chai tests for contract edge cases
+- scripts/: Deployment and interaction scripts
+- utils/: Contract helpers
+
+B. backend/
+- index.js: Main Express server, API routes
+- blockchain.js: Blockchain service (ethers.js)
+- auto-complete-and-archive.js: Scheduler for auto-completion/archiving
+- uploads/: Candidate profile uploads
+- README.md: Backend setup and API docs
+
+C. final/admin/
+- src/app/: Next.js app directory
+  - admin/: Admin panel (setup, review, results, voting control)
+  - elections/: Voting pages for each position
+  - votenow/: Main voting UI
+  - register-*: Registration pages
+  - login/, signup/: Auth pages
+  - HomePage.tsx: Landing page with features
+- src/components/: Shared React components (BlockchainVoting, ChoiceCard, UI primitives)
+- src/contexts/: Web3 context provider
+- src/services/: blockchain.ts (API and blockchain service)
+- README.md: Frontend setup and usage
+
+--------------------------------------------
+4. Troubleshooting & Best Practices
+--------------------------------------------
+- **BigInt serialization:** Backend converts all BigInt values to strings before saving to MongoDB
+- **API port mismatch:** Always use `NEXT_PUBLIC_API_URL` in frontend to call backend on port 5000
+- **Auto-archiving:** Scheduler skips already archived elections and retries on failure
+- **Vote status:** Use the `/api/blockchain/vote-status` endpoint for accurate voting status
+- **Environment variables:** Never commit `.env` files; always set up locally
+- **Logs:** Check backend and scheduler logs for detailed error messages
+
+--------------------------------------------
+For more details, see README.md files in each folder. 

@@ -1,0 +1,35 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:coverage": "hardhat coverage",
+    "deploy": "hardhat run scripts/deploy.ts --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia",
+    "deploy:mainnet": "hardhat run scripts/deploy.ts --network mainnet",
+    "node": "hardhat node",
+    "interact": "hardhat run scripts/interact.ts --network localhost",
+    "clean": "hardhat clean",
+    "verify": "hardhat verify --network sepolia"
+  },
+  "keywords": [
+    "blockchain",
+    "voting",
+    "ethereum",
+    "smart-contracts"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Blockchain-based voting system smart contracts",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.0.0",
+    "@openzeppelin/contracts": "^5.3.0",
+    "hardhat": "^2.25.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "ethers": "^6.14.4"
+  }
+}
