@@ -404,8 +404,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For support and questions:
 
 - 📧 Email: [maheshbirajdar3355@gmail.com]
-- 🐛 Issues: [GitHub Issues](https://github.com/Mahesh3355/final_boss/issues)
-- 📖 Documentation: [Wiki](https://github.com/Mahesh3355/final_boss/wiki)
+- 🐛 Issues: [GitHub Issues](https://github.com/Mahesh3355/E_Voting_System/issues)
+- 📖 Documentation: [Wiki](https://github.com/Mahesh3355/E_Voting_System/wiki)
 
 ---
 
