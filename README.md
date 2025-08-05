@@ -1,4 +1,4 @@
-# 🗳️ Votechian - Blockchain E-Voting System
+# 🗳️ Votechain - Blockchain E-Voting System
 
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
 [![Solidity](https://img.shields.io/badge/Solidity-0.8+-blue.svg)](https://soliditylang.org/)
