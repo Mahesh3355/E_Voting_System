@@ -21,6 +21,7 @@
 - [🔒 Security Features](#-security-features)
 - [📊 API Documentation](#-api-documentation)
 - [🤝 Contributing](#-contributing)
+- [👥 Contributors](#-contributors)
 - [📝 License](#-license)
 
 ## ✨ Features
@@ -400,19 +401,54 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **MongoDB** for database
 - **Express.js** for backend framework
 
+## 👥 Contributors
+
+Thanks goes to these wonderful people who contributed to this project:
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Mahesh3355">
+        <img src="https://avatars.githubusercontent.com/u/Mahesh3355?v=4?s=100" width="100px;" alt=""/>
+        <br />
+        <sub><b>Mahesh3355</b></sub>
+      </a>
+      <br />
+      <sub>🚀 Project Creator & Lead Developer</sub>
+    </td>
+  </tr>
+</table>
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+### 🤝 How to Contribute
+
+We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
+
+- 🐛 Reporting a bug
+- 💡 Suggesting a new feature
+- 📝 Improving documentation
+- 🔧 Submitting a fix
+
+**Want to contribute?** Check out our [Contributing Guide](#-contributing) above!
+
 ## 📞 Support
 
 For support and questions:
 
-- 📧 Email: [your-email@example.com]
+- 📧 Email: [maheshbirajdar3355@gmail.com]
 - 🐛 Issues: [GitHub Issues](https://github.com/Mahesh3355/E_Voting_System/issues)
 - 📖 Documentation: [Wiki](https://github.com/Mahesh3355/E_Voting_System/wiki)
 
-> **Note**: Your repository is live at [https://github.com/Mahesh3355/E_Voting_System](https://github.com/Mahesh3355/E_Voting_System)
+> **Note**:Repository is live at [https://github.com/Mahesh3355/E_Voting_System](https://github.com/Mahesh3355/E_Voting_System)
 
 ---
 
 <div align="center">
   <p>Made with ❤️ for secure and transparent voting</p>
-  <p>⭐ Star this repository if you found it helpful!</p>
+  <p>⭐Star this repository if you found it helpful!</p>
 </div>
