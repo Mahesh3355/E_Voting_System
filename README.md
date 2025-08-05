@@ -99,7 +99,6 @@
 
 - **Node.js** (v18 or higher)
 - **MongoDB** (local or cloud)
-- **MetaMask** browser extension
 - **Git**
 
 ### 1. Clone the Repository
