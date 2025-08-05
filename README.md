@@ -99,7 +99,6 @@
 
 - **Node.js** (v18 or higher)
 - **MongoDB** (local or cloud)
-- **MetaMask** browser extension
 - **Git**
 
 ### 1. Clone the Repository
@@ -404,9 +403,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For support and questions:
 
-- 📧 Email: [your-email@example.com]
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/final_boss/issues)
-- 📖 Documentation: [Wiki](https://github.com/yourusername/final_boss/wiki)
+- 📧 Email: [maheshbirajdar3355@gmail.com]
+- 🐛 Issues: [GitHub Issues](https://github.com/Mahesh3355/final_boss/issues)
+- 📖 Documentation: [Wiki](https://github.com/Mahesh3355/final_boss/wiki)
 
 ---
 
