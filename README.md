@@ -391,39 +391,6 @@ We welcome contributions! Please follow these steps:
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Ethereum Foundation** for blockchain technology
-- **Hardhat** for development framework
-- **Next.js** for frontend framework
-- **MongoDB** for database
-- **Express.js** for backend framework
-
-## 👥 Contributors
-
-Thanks goes to these wonderful people who contributed to this project:
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Mahesh3355">
-        <img src="https://avatars.githubusercontent.com/u/Mahesh3355?v=4?s=100" width="100px;" alt=""/>
-        <br />
-        <sub><b>Mahesh3355</b></sub>
-      </a>
-      <br />
-      <sub>🚀 Project Creator & Lead Developer</sub>
-    </td>
-  </tr>
-</table>
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
 ### 🤝 How to Contribute
 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
