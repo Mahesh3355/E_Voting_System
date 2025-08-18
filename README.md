@@ -411,6 +411,7 @@ We welcome contributions! Please follow these steps:
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ### 🤝 How to Contribute
 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
