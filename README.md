@@ -94,6 +94,16 @@
                     └─────────────────┘
 ```
 
+![Architecture_overview.png](images/Architecture_overview.png)
+
+## 🔄 End-to-End Sequence
+
+![End-to-end sequence.png](images/End-to-end%20sequence.png)
+
+## 🔁 Election Lifecycle
+
+![Election lifecycle.png](images/Election%20lifecycle.png)
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -211,6 +221,10 @@ E_Voting_System/
 └── 📄 README.md                 # This file
 ```
 
+## 🗄️ Data Model
+
+![Data model.png](images/Data%20model.png)
+
 ## 🔧 Installation
 
 ### Smart Contract Setup
@@ -276,6 +290,8 @@ NEXT_PUBLIC_API_URL=http://localhost:5000
 
 ## 🎯 Usage
 
+![Registration_flow.png](images/Registration_flow.png)
+
 ### For Voters
 
 1. **Register**: Visit the registration page and provide your details
@@ -284,6 +300,8 @@ NEXT_PUBLIC_API_URL=http://localhost:5000
 4. **Vote**: Select your preferred candidate for each position
 5. **View Results**: Check real-time election results
 
+![Voter_flow.png](images/Voter_flow.png)
+
 ### For Admins
 
 1. **Create Election**: Set up new election with dates and positions
@@ -291,6 +309,8 @@ NEXT_PUBLIC_API_URL=http://localhost:5000
 3. **Manage Candidates**: Review and approve candidate applications
 4. **Monitor Results**: View live election analytics
 5. **Complete Election**: Finalize and archive election results
+
+![Admin_flow.png](images/Admin_flow.png)
 
 ### For Candidates
 
